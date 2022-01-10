@@ -478,4 +478,46 @@
         color: #81AFDD;
         margin-bottom: 30px;
     }
-    /* =====-===== */
+    /* =====register===== */
+    
+    .register {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 35px;
+        align-items: center;
+        background: linear-gradient( 89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .register__link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 30px;
+        color: #0E0E0E;
+    }
+    
+    .register__title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 45px;
+        color: #000000;
+    }
+    
+    .register__btn {
+        background: #000000;
+        border-radius: 40px;
+        border: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 30px;
+        color: #FFFFFF;
+        padding: 10px 27px;
+    }
