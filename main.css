@@ -305,13 +305,20 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
-.imag__text {
+.imag__link {
+    height: 100%;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #FF8A71;
     text-decoration: none;
+}
+
+.imag__link:hover {
+    background: -webkit-linear-gradient(#ae67fa 20%, #f49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about__row {
@@ -360,19 +367,26 @@ img {
     font-weight: 800;
     font-size: 32px;
     line-height: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background: -webkit-linear-gradient(#ae67fa 20%, #f49867);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .future__link {
+    height: 100%;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
     color: #FF8A71;
     text-decoration: none;
+}
+
+.future__link:hover {
+    background: -webkit-linear-gradient(#ae67fa 20%, #f49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .future__row {
