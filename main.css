@@ -259,7 +259,86 @@ img {
 .about {
     background: rgba(4, 44, 84, 1);
     width: 100%;
-    height: 600px;
+    height: 100%;
+    padding: 50px 60px;
+}
+
+.about__gpt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gpt__title {
+    width: 15%;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.gpt__text {
+    width: 70%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+
+.about__imag {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 85px 0;
+}
+
+.imag__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 45px;
+    width: 45%;
+    background: -webkit-linear-gradient(#ae67fa 20%, #f49867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imag__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    text-decoration: none;
+}
+
+.about__row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about__card {
+    width: 25%;
+}
+
+.about__card-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 70px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.about__card-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    color: #81AFDD;
 }
 
 
